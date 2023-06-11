@@ -4,6 +4,9 @@ public class car extends vehicle {
     private int numOfDoors;
     private int getSpeedLimit;
     
+    // private final int numDoors; // for immutable object
+    // private final int getSpeedLimit; // for immmutable object
+    
     public car(String brand, int numOfDoors, int getSpeedLimit) {
         super(brand);
         this.numOfDoors = numOfDoors;
